@@ -54,7 +54,7 @@ public class MiDirectorio {
             System.out.println("Ingrese el numero de la opcion que desee");
             op1 = lector.nextInt();
             switch (op1) {
-                case 1:
+                case 1://agregar
                     do {
                         m.menuContactos();
                         op2 = lector.nextInt();
